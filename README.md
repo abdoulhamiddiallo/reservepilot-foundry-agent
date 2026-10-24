@@ -252,7 +252,17 @@ reservepilot-foundry-agent/
 
 ## 🚀 Reproduire le projet
 
-Le guide complet, [`docs/Guide_Foundry_ReservePilot_Public_2.pdf`](docs/Guide_Foundry_ReservePilot_Public_2.pdf), explique les bases actuarielles en deux pages puis détaille chaque clic, chaque valeur à saisir et chaque résultat attendu. En résumé :
+Le guide complet explique les bases actuarielles en deux pages, puis détaille chaque clic, chaque valeur à saisir et chaque résultat attendu, jusqu'aux résultats de l'évaluation.
+
+<div align="center">
+
+[![Aperçu du guide ReservePilot : couverture, vue d'ensemble, bases actuarielles, Solvabilité II et résultats](docs/images/guide_apercu.png)](https://github.com/abdoulhamiddiallo/reservepilot-foundry-agent/raw/main/docs/Guide_Foundry_ReservePilot_Public_2.pdf)
+
+**[📘 Télécharger le guide en PDF (10 pages)](https://github.com/abdoulhamiddiallo/reservepilot-foundry-agent/raw/main/docs/Guide_Foundry_ReservePilot_Public_2.pdf)**
+
+</div>
+
+En résumé :
 
 | Étape | Où | Ce que vous faites |
 |:---:|---|---|
@@ -260,7 +270,7 @@ Le guide complet, [`docs/Guide_Foundry_ReservePilot_Public_2.pdf`](docs/Guide_Fo
 | 2 | Découvrir › Modèles | déployer `gpt-5-mini` |
 | 3 | Build › Agents | créer `reservepilot-mla` et coller [`agent/instructions_agent.txt`](agent/instructions_agent.txt) |
 | 4 | Outils › Interpréteur de code | joindre [`agent/moteur_actuariel.py`](agent/moteur_actuariel.py) et les trois fichiers de [`donnees/`](donnees) |
-| 5 | Outils › Charger des fichiers | indexer la [politique](politique/Politique_Provisionnement_MLA.pdf) dans `vs-politique-mla` |
+| 5 | Outils › Charger des fichiers | indexer la [politique](https://github.com/abdoulhamiddiallo/reservepilot-foundry-agent/raw/main/politique/Politique_Provisionnement_MLA.pdf) dans `vs-politique-mla` |
 | 6 | Garde-fous | créer ou partager `gr-riskpilot` |
 | 7 | Playground | poser les questions de test et comparer aux résultats clés |
 | 8 | Évaluations | évaluer avec [`evaluation/eval_reservepilot.jsonl`](evaluation/eval_reservepilot.jsonl) |
